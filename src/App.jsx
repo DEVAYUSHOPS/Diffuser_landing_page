@@ -8,7 +8,7 @@ export default function App() {
       <nav className="navbar bg-[#2e1608] p-2 flex justify-between items-center">
         <div className="Logo mx-4">
           <a href="#home">
-            <img src="/public/Logo.png" alt="Logo" className="w-14" />
+            <img src="Logo.png" alt="Logo" className="w-14" />
           </a>
         </div>
         <div
@@ -69,7 +69,7 @@ export default function App() {
         >
           <img
             className="object-contain rounded-lg md:w-[70%]"
-            src="/public/sample3.jpg"
+            src="sample3.jpg"
             alt=""
           />
           <h2 className="text-[2rem]">Essence humidifier</h2>
@@ -80,7 +80,7 @@ export default function App() {
         >
           <img
             className="object-contain rounded-lg md:w-[70%]"
-            src="/public/sample2.jpg"
+            src="sample2.jpg"
             alt=""
           />
           <h2 className="text-[2rem]">Steam Diffuser</h2>
@@ -91,7 +91,7 @@ export default function App() {
         >
           <img
             className="object-contain rounded-lg md:w-[70%]"
-            src="/public/sample1.jpg"
+            src="sample1.jpg"
             alt=""
           />
           <h2 className="text-[2rem]">Essence humidifier</h2>
@@ -117,7 +117,7 @@ export default function App() {
       >
         <div className="review bg-[#371f11] rounded-md w-[50%] p-4 my-4 md:mx-4">
           <div className="name flex items-center justify-around my-4">
-            <img className="rounded-full w-20" src="/public/r1.jpg" alt="" />
+            <img className="rounded-full w-20" src="r1.jpg" alt="" />
             <h2 className="text-white text-xl font-bold">Jonas</h2>
           </div>
           <p>⭐⭐⭐⭐⭐</p>
@@ -125,7 +125,7 @@ export default function App() {
         </div>
         <div className="review bg-[#b49583] rounded-md w-[50%] p-4 my-4 md:mx-8">
           <div className="name flex items-center justify-around my-4">
-            <img className="rounded-full w-20" src="/public/r2.jpg" alt="" />
+            <img className="rounded-full w-20" src="r2.jpg" alt="" />
             <h2 className="text-[#371f11] text-xl font-bold">Jonas</h2>
           </div>
           <p>⭐⭐⭐⭐⭐</p>
@@ -133,7 +133,7 @@ export default function App() {
         </div>
         <div className="review bg-[#371f11] rounded-md w-[50%] p-4 my-4 md:mx-4">
           <div className="name flex items-center justify-around my-4">
-            <img className="rounded-full w-20" src="/public/r3.jpg" alt="" />
+            <img className="rounded-full w-20" src="r3.jpg" alt="" />
             <h2 className="text-white text-xl font-bold">Jonas</h2>
           </div>
           <p>⭐⭐⭐⭐⭐</p>
@@ -158,7 +158,7 @@ export default function App() {
         className="info-cards flex flex-col justify-between my-2 items-center text-center p-4 md:flex-row md:w-[90%]"
       >
         <div className="info-card md:w-[25%] flex flex-col items-center">
-          <img className="md:w-[70%]" src="/public/info1.png" alt="" />
+          <img className="md:w-[70%]" src="info1.png" alt="" />
           <h1 className="text-xl font-bold mb-4 md:text-2xl">
             Effortless benefits
           </h1>
@@ -169,12 +169,12 @@ export default function App() {
         <div
           className="info-card md:w-[25%] flex flex-col items-center mt-12 md:mt-4"
         >
-          <img className="md:w-[70%]" src="/public/info2.png" alt="" />
+          <img className="md:w-[70%]" src="info2.png" alt="" />
           <h1 className="text-xl font-bold mb-4">Dermatologist recommended</h1>
           <p className="w-[80%]">The science behind the experts choice.</p>
         </div>
         <div className="info-card md:w-[25%] flex flex-col items-center">
-          <img className="md:w-[70%]" src="/public/info3.png" alt="" />
+          <img className="md:w-[70%]" src="info3.png" alt="" />
           <h1 className="text-xl font-bold mb-4 md:text-2xl">
             Natural and intuitive
           </h1>
