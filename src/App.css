@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&family=Libre+Bodoni:wght@400;700&display=swap');
+
+:root{
+    --primary: 'Libre Bodoni', serif;
+    --secondary:'Balthazar', serif;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+}
+
+
+/* NAVBAR */
+nav{
+    font-family: var(--secondary);
+}
+.res-links{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.res-links > a{
+    margin: 10px;
+}
+
+/* HOME */
+.home{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.726)),url("/public/Back.jpg");
+}
+
+.home .home-content h1,#info .info-head{
+    font-family: var(--primary);
+}
+.home .home-content p,#shop,#reviews .review-head,#info p,footer{
+    font-family: var(--secondary);
+}
+
+/* SHOP */
+@media (min-width: 768px) {
+    #shop{
+        background-image: url("/public/Smoke.png");
+        background-size: cover;
+    }
+    #info{
+        background-image: url("/public/Smoke.png");
+        background-size: cover;
+        object-position: top;
+    }
+}
+
+/* ANIMATIONS */
+.buy-butt{
+    transition: all 0.2s ease-in-out;
+    animation: slide-in 5000ms;
+}
+.buy-butt:hover{
+    color: rgb(200 ,113 ,113,1);
+    box-shadow: 0 5px 20px rgb(59, 26, 26);
+    scale: 1.05;
+}
+.home{
+    animation: slide-in 1000ms;
+}
+.home-content{
+    animation: slide-in 3000ms;
+}
+
+.shop-item:hover{
+    animation: breathe 700ms ease;
+    cursor: pointer;
+}
+
+.review{
+    transition: all 0.3s ease-in-out;
+}
+
+.review:hover{
+    box-shadow: 0 1px 5px rgb(101, 100, 100);
+    scale: 1.05;
+}
+
+@keyframes slide-in{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes breathe {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
